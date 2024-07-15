@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+/*media queries*/
+@media (max-width: 768px) {
+  .card-container {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1366px) {
+  .card-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+/* ajouter plus de media queries en fonction des définiitions */
